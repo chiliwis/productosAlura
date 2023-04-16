@@ -17,8 +17,8 @@ right: 0%;
 }
 
 nav li {
-    display: inline;ß
-    padding: 10px;
+    display: inline;
+   padding: 10px;
 }
 
 nav a {
@@ -123,4 +123,37 @@ form label, form p{
 .checkbox{
     margin: 0 0 70px 0;
 
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s, all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
