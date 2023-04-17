@@ -257,20 +257,18 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .principal {
-        width: 100%;
+    h1{
+        text-align: center;
     }
-    .mapa-contenido {
-        width: 100%;
+    nav{
+        position: static;
+     
     }
-    .contenido-diferenciales {
-        width: 100%;
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
     }
-    .imagen-diferenciales {
-        width: 100%;
-    }
-    .video {
-        width: 100%;
-    }
+  .lista-diferenciales, .imagen-diferenciales{
+    width: 100%;
+  }
 }
     
